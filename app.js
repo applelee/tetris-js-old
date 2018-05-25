@@ -1,5 +1,5 @@
 const Tetris = (function(){
-  const tetris = function(obj){
+  const Tetris = function(obj){
     this.offsetX = Math.floor(obj.mapW/2) - 1
     this.offsetY = 0
     this.shapDir = 0
@@ -12,7 +12,7 @@ const Tetris = (function(){
     this.map = new Map()
     this.shapArr = ['I','L','J','Z','S','T','O']
     // this.colorArr = ['red','orange','yellow','green','cyan','blue','violet']
-    
+
     //方块
     this.shapData = {
       'I':[
@@ -429,7 +429,7 @@ const Tetris = (function(){
 })()
 
 //执行
-const tetris = new Tetris({
+const Tetris = new Tetris({
   mapW:11,          //游戏地图宽
   mapH:15,          //游戏地图高
   rectSize:30,
