@@ -1,0 +1,10 @@
+#tetris_container{background-color:#eee;position:relative;overflow:hidden;}
+#shap_container{position:relative;}
+.rect{width:30px;height:30px;background-color:#ccc;position:absolute;}
+.red-bg{background-color:#ff0000;}
+/*.orange-bg{background-color:#ff8400;}
+.yellow-bg{background-color:#fcff00;}
+.green-bg{background-color:#18ff00;}
+.cyan-bg{background-color:#00f6ff;}
+.blue-bg{background-color:#0006ff;}
+.violet-bg{background-color:#c600ff;}*/
